@@ -29,3 +29,8 @@ p{text-align: justify;}
 .ray{text-align: center;}
 #background{background-image:url("images/img2.jpg");padding:100px 0px 0px 0px;}
 #position{text-align:center;}
+
+@media(max-width:720px){
+.raybox{margin:15px 0px 0px 12px;}
+
+}

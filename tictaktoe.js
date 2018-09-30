@@ -368,6 +368,82 @@ if(count === 3)
 							}
                    count = count + 1;
 		//combination 1
+	}else if(user_5 === 1 && user_9 === 1 && com_1 === 1)
+	{
+
+
+		document.getElementById("top-right-text").innerHTML = "O";   
+		document.getElementById("top-right-text").style.color="red";
+
+		   com_3 = 1;
+		   com.push(3);
+		   array.push(3);
+		   combination = 1;
+		   ran = 1;
+		   for(i = 0;i<avai.length;i++)
+			   {
+			   if(avai[i] === 3)
+			   avai.splice(i,1);
+				   }
+		  count = count + 1;
+
+	}else if(user_5 === 1 && user_7 === 1 && com_3 === 1)
+	{
+
+
+		document.getElementById("top-left-text").innerHTML = "O";   
+		document.getElementById("top-left-text").style.color="red";
+
+		   com_1 = 1;
+		   com.push(1);
+		   array.push(1);
+		   combination = 1;
+		   ran = 1;
+		   for(i = 0;i<avai.length;i++)
+			   {
+			   if(avai[i] === 1)
+			   avai.splice(i,1);
+				   }
+		  count = count + 1;
+
+
+
+	}else if(user_5 === 1 && user_6 === 1 && com_4 === 1)
+	{
+
+
+		document.getElementById("top-left-text").innerHTML = "O";   
+		document.getElementById("top-left-text").style.color="red";
+
+		   com_1 = 1;
+		   com.push(1);
+		   array.push(1);
+		   combination = 1;
+		   ran = 1;
+		   for(i = 0;i<avai.length;i++)
+			   {
+			   if(avai[i] === 1)
+			   avai.splice(i,1);
+				   }
+		  count = count + 1;
+
+	}else if(user_5 === 1 && user_8 === 1 && com_2 === 1)
+	{
+		document.getElementById("top-right-text").innerHTML = "O";   
+		document.getElementById("top-right-text").style.color="red";
+
+		   com_3 = 1;
+		   com.push(3);
+		   array.push(3);
+		   combination = 1;
+		   ran = 1;
+		   for(i = 0;i<avai.length;i++)
+			   {
+			   if(avai[i] === 3)
+			   avai.splice(i,1);
+				   }
+		  count = count + 1;
+
 	}else if(user_1 === 1 && user_3 === 1)
 	{
 				 document.getElementById("top-center-text").innerHTML = "O";   
@@ -702,7 +778,8 @@ if(count === 3)
 							}
                    count = count + 1;
 		//combination 20
-	}else if(ran === 0){
+	}	
+	else if(ran === 0){
 		var item = avai[Math.floor(Math.random()*avai.length)];
 console.log("r");
             if(item === 1)
