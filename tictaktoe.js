@@ -38,7 +38,7 @@ function top_left()
 {
 	if(document.getElementById("top-left-text").innerHTML === "")
 	{
-	document.getElementById("top-left-text").innerHTML = "X";
+	$("#top-left-text").html("X");
 	count = count+1;
 	user_1 =1;
 	user.push(1);
@@ -63,7 +63,7 @@ function top_center()
 {
 	if(document.getElementById("top-center-text").innerHTML === "")
 	{
-	document.getElementById("top-center-text").innerHTML = "X";
+	$("#top-center-text").html("X");
 	count = count+1;
 	user_2 =1;
 	user.push(2);
@@ -86,7 +86,7 @@ function top_right()
 {
 	if(document.getElementById("top-right-text").innerHTML === "")
 	{
-	document.getElementById("top-right-text").innerHTML = "X";
+	$("#top-right-text").html("X");
 	count = count+1;
 	user_3 =1;
 	user.push(3);
@@ -109,7 +109,7 @@ function middle_left()
 {
    if(document.getElementById("middle-left-text").innerHTML === "")
 	{
-	document.getElementById("middle-left-text").innerHTML = "X";
+	$("#middle-left-text").html("X");
 	count = count+1;
 	user_4 =1;
 	user.push(4);
@@ -134,7 +134,7 @@ function middle_center()
 {
 	if(document.getElementById("middle-center-text").innerHTML === "")
 	{
-	document.getElementById("middle-center-text").innerHTML = "X";
+	$("#middle-center-text").html("X");
 	count = count+1;
 	user_5 = 1;
 	user.push(5);
@@ -158,7 +158,7 @@ function middle_right()
 {
 	if(document.getElementById("middle-right-text").innerHTML === "")
 	{
-	document.getElementById("middle-right-text").innerHTML = "X";
+	$("#middle-right-text").html("X");
 	count = count+1;
 	user_6 = 1;
 	user.push(6);
@@ -182,7 +182,7 @@ function bottom_left()
 {
 	if(document.getElementById("bottom-left-text").innerHTML === "")
 	{
-	document.getElementById("bottom-left-text").innerHTML = "X";
+	$("#bottom-left-text").html("X");
 	count = count+1;
 	user_7 = 1;
 	user.push(7);
@@ -206,7 +206,7 @@ function bottom_center()
 {
 	if(document.getElementById("bottom-center-text").innerHTML === "")
 	{
-	document.getElementById("bottom-center-text").innerHTML = "X";
+	$("#bottom-center-text").html("X");
 	count = count+1;
 	user_8 = 1;
 	user.push(8);
@@ -230,7 +230,7 @@ function bottom_right()
 {
 	if(document.getElementById("bottom-right-text").innerHTML === "")
 	{
-	document.getElementById("bottom-right-text").innerHTML = "X";
+	$("#bottom-right-text").html( "X");
 	count = count+1;
 	user_9 = 1;
 	user.push(9);
